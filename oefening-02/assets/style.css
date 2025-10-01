@@ -1,0 +1,47 @@
+body {
+  min-height: 100vh;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #91c8ff;
+  display: grid;
+  grid-template-columns: auto 250px;
+
+  padding: 5px;
+  grid-column: 1 / span 3;
+}
+
+nav {
+  background-color: #b3d8fd;
+  align-self:center;
+}
+
+main {
+  background-color: #7da9d5;
+
+  padding: 5px;
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 2;
+}
+
+aside {
+  padding: 5px;
+  background-color: #007fff;
+  grid-row: 2 / span 1;
+}
+
+footer {
+  padding: 5px;
+  background-color: #588ec3;
+  grid-column: 1 / span 3;
+}
+
+body {
+  display: grid;
+  padding: 0px;
+  margin: 0px;
+}

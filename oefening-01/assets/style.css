@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #91c8ff;
+
+  padding: 5px;
+  grid-column: 1 / span 3;
+}
+
+main {
+  background-color: #7da9d5;
+
+  padding: 5px;
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 2;
+}
+
+aside {
+  padding: 5px;
+  background-color: #007fff;
+  grid-row: 2 / span 1;
+}
+
+footer {
+  padding: 5px;
+  background-color: #588ec3;
+  grid-column: 1 / span 3;
+}
+
+body {
+  display: grid;
+  padding: 0px;
+  margin: 0px;
+}
